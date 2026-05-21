@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "UniMaps",
+  "theme": "luma",
+  "colors": {
+    "primary": "#2563EB",
+    "light": "#EFF6FF",
+    "dark": "#1E3A8A"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/Jcofles/Proyecto-web"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Jcofles/Proyecto-web"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "deployment"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/campus-map",
+              "features/routing",
+              "features/dashboard"
+            ]
+          },
+          {
+            "group": "Authentication",
+            "pages": [
+              "auth/overview",
+              "auth/registration",
+              "auth/two-factor",
+              "auth/secure-key"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment",
+              "configuration/email",
+              "configuration/database"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Authentication API",
+            "pages": [
+              "api/auth/login",
+              "api/auth/register",
+              "api/auth/two-factor",
+              "api/auth/profile"
+            ]
+          },
+          {
+            "group": "Map API",
+            "pages": [
+              "api/map/nodes",
+              "api/map/routing",
+              "api/map/connections"
+            ]
+          },
+          {
+            "group": "Admin API",
+            "pages": [
+              "api/admin/users"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
